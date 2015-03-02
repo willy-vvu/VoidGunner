@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<!--ETHAN WAS HERE-->
+<head>
+  <title>Void Gunner</title>
+  <link rel="stylesheet" href="controller.css" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="favicon.ico" type="x-icon">
+</head>
+<body>
+<div id="container">
+  <div id="form">
+  <h1>Welcome to Void Gunner!</h1>
+    <h1>Player Name:</h1><br>
+    <input class="name" type="text" name="playername" id="playername" value="Orion" maxlength="10">
+    <br>
+    <div style="clear:both;"></div>
+    <h1>Color:</h1><br>
+    <!--colors to choose from-->
+    <div class="colorpicker selected" data-color="ff0000" id="red"></div>
+    <div class="colorpicker" data-color="0000ff" id="blue"></div>
+    <div class="colorpicker" data-color="ffff00" id="yellow"></div>
+    <div class="colorpicker" data-color="00ff00" id="green"></div>
+    <br>
+    <div class="colorpicker" data-color="800080" id="purple"></div>
+    <div class="colorpicker" data-color="ff1493" id="pink"></div>
+    <div class="colorpicker" data-color="d2691e" id="brown"></div>
+    <div class="colorpicker" data-color="ffa500" id="orange"></div>
+    <div style="clear:both;"></div>
+    <br>
+    <input type="submit" value="Join Game" size = "100" id="submit">
+    <h1>Turn your phone to landscape!</h1>
+  </div>
+  <div id="controller">
+    <div id="leftJoy">
+      <img src="Images/move.png" class="fore">
+    </div>
+    <div id="rightJoy">
+      <img src="Images/move.png" class="fore">
+    </div>
+    <input type="submit" value="Leave Game" id="leave">
+  </div>
+</div>
+
+
+  <script src="app.js"></script>
+
+
+  <script>
+    require("controller/controller")
+  </script>
+
+
+</body>
+</html> 
