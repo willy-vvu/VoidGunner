@@ -3,7 +3,7 @@ A massively multiplayer space shooter game, developed in 8 hours at MIT Blueprin
 
 Our team won 3rd place in the main division!
 
-Take a look at Void Gunner in action at [on YouTube.](http://youtu.be/rPSjOjC7FZE?t=49m45s)
+Take a look at Void Gunner in action [on YouTube.](http://youtu.be/rPSjOjC7FZE?t=49m45s)
 
 # Brunch with Fairies
 A quick and fairy simple skeleton for creating HTML5 games and other interactives with [Pixi](http://www.pixijs.com/) and CoffeeScript.
